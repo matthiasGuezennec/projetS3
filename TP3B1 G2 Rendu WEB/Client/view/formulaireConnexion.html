@@ -1,0 +1,12 @@
+<h2>Connexion</h2>
+
+<form action="connexion.php" method="post">
+  <label for="login">Login (max. 16 caractères):</label>
+  <input type="text" id="login" name="login" maxlength="16" <?php echo $loginRequired ?? ""; ?> value="<?php echo $loginValue ?? ""; ?>" />
+
+  <label for="password">Mot de passe:</label>
+  <input type="password" id="password" name="password" <?php echo $passwordRequired ?? ""; ?> value="<?php echo $passwordValue ?? ""; ?>" />
+
+  <button type="submit" name="login-bouton">Connexion</button>
+  <button type="submit" name="create-bouton">Créer un compte</button>
+</form>

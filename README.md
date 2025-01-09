@@ -19,3 +19,8 @@ Site réservé aux membres de la pizzeria, offrant plusieurs fonctionnalités :
 Fonctionnalités spécifiques incluses :  
 - **Modification**, **ajout**, et **suppression** d'ingrédients et de pizzas.  
 - Création de réductions.
+
+
+## Data/
+
+Fichier de la structure de la base de données **MySQL**
