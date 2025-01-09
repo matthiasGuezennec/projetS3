@@ -1,0 +1,199 @@
+
+
+section {
+  margin: 2em 0;
+  /* Ajustez la marge supérieure et inférieure */
+  display: flex;
+}
+
+
+.right {
+  width: 80%;
+  background-color: #fafafa;
+  padding: 20px;
+}
+
+.pizza-image {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #77b5fe;
+  background: linear-gradient(0deg, #77b5fe 10%, #4bcb5c 80%);
+  background: -webkit-linear-gradient(0deg, #77b5fe 10%, #4bcb5c 80%);
+  background: -moz-linear-gradient(0deg, #77b5fe 10%, #4bcb5c 80%);
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+  position: relative;
+}
+
+h1, h4 {
+  font-size: 3em;
+  margin: 0;
+  padding: 0;
+}
+
+
+.login-button {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  width: 100px;
+  padding: 10px;
+}
+
+p {
+  color: #666;
+}
+
+.promotion {
+  background-color: #ffcc00;
+  padding: 1em;
+  border-radius: 5px;
+  margin-bottom: 2em;
+  /* Ajout de marge en bas de la promotion */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.block {
+  background-color: #fafafa;
+  border-radius: 5px;
+  width: 15%;
+  height: 300px;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+.block_act {
+  border: 1px solid #ffcc00;
+  background-color: #ffcc00;
+  border-radius: 5px;
+  width: 15%;
+  height: 300px;
+  padding: 10px;
+  text-align: center;
+}
+
+.block:hover {
+  border: 1px solid #ffcc00;
+  background-color: #ffcc00;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 2em;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pizzas {
+  width: 100%;
+  height: auto;
+  display: block;
+  /*margin: auto;*/
+}
+
+.btnCommande {
+  background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+  background-color: #ffec64;
+  border-radius: 5px;
+  border: 1px solid #ffaa22;
+  display: inline-block;
+  cursor: pointer;
+  color: #333333;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 20px 76px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffee66;
+}
+
+.btnCommande:hover {
+  background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+  background-color: #ffab23;
+}
+
+.btnCommande:active {
+  position: relative;
+  top: 1px;
+}
+
+.home-button {
+  float: left;
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  width: 100px;
+}
+
+.home-button:hover, .login-button:hover {
+  background-color: #2980b9;
+}
+
+.Nom-Entreprise {
+  color: #333;
+}
+
+.block a.Pizza-button , div.block_act a.Pizza_button {
+  text-decoration: none;
+  color: black;
+}
+
+.block a.Pizza_button p , div.block_act a.Pizza_button p {
+  color: #333333;
+}
+
+.affichageProduit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.block, .block_act {
+  flex: 0 0 calc(20% - 20px);
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

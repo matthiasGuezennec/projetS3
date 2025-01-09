@@ -1,0 +1,17 @@
+.ajouter-ingredient {
+    background-color: #17af03;
+    border-radius: 100%;
+}
+
+.ajouter-ingredient:hover {
+    background-color: #128503;
+}
+
+.suppr-ingredient {
+    background-color: #be0606;
+    border-radius: 100%;
+}
+
+.suppr-ingredient:hover {
+    background-color: #880303;
+}
